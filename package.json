@@ -1,0 +1,23 @@
+{
+  "name": "warcraft3-unit-data",
+  "version": "1.0.0",
+  "description": "Provides data about warcraft 3 units and abiltiies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "Warcraft3",
+    "Hotkeys"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdgvhbh/Warcraft3UnitData.git"
+  },
+  "author": "drdgvhbh <drdgvhbh@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
