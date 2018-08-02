@@ -1,7 +1,7 @@
 {
   "name": "warcraft3-unit-data",
-  "version": "1.0.2",
-  "description": "Provides data about warcraft 3 units and abiltiies",
+  "version": "1.0.4",
+  "description": "Provides data about Warcraft 3 units and abilities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
