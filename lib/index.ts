@@ -1,4 +1,9 @@
+import humanUnits from './humanUnits';
 import WarcraftAbility from './WarcraftAbility';
 import WarcraftUnit from './WarcraftUnit';
+import WarcraftUnitsDataMapper from './WarcraftUnitsDataMapper';
 
-export { WarcraftAbility, WarcraftUnit };
+const dataMapper = new WarcraftUnitsDataMapper();
+const mappedHumanUnits = dataMapper.map(humanUnits);
+
+export { WarcraftAbility, WarcraftUnit, mappedHumanUnits as humanUnits };

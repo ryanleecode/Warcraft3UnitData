@@ -1,3 +1,4 @@
 import WarcraftAbility from './WarcraftAbility';
 import WarcraftUnit from './WarcraftUnit';
-export { WarcraftAbility, WarcraftUnit };
+declare const mappedHumanUnits: WarcraftUnit[];
+export { WarcraftAbility, WarcraftUnit, mappedHumanUnits as humanUnits };
