@@ -1,11 +1,11 @@
 {
   "name": "warcraft3-unit-data",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Provides data about Warcraft 3 units and abilities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && cpx \"lib/**/*.{png, jpg, gif}\" dist"
+    "build": "tsc && cpx \"lib/**/*.png\" dist && cpx \"lib/**/*.gif\" dist"
   },
   "keywords": [
     "Warcraft3",
