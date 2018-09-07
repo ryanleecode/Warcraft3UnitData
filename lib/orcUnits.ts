@@ -243,7 +243,7 @@ const orcUnits: WarcraftUnit[] = [
   },
   {
     img: 'orc_kodo_beast.gif',
-    title: 'Raider',
+    title: 'Kodo Beast',
     spells: [
       {
         title: 'Devour',
