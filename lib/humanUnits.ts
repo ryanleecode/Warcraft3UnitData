@@ -92,6 +92,168 @@ const humanUnits: WarcraftUnit[] = [
     ],
   },
   {
+    img: 'human_bloodmage.png',
+    title: 'Blood Mage',
+    spells: [
+      {
+        title: 'Flame Strike',
+        img: 'human_bloodmage_flame_strike.gif',
+        abilityId: 'AHfs',
+        defaultHotkey: 'F',
+      },
+      {
+        title: 'Banish',
+        img: 'human_bloodmage_banish.gif',
+        abilityId: 'AHbn',
+        defaultHotkey: 'B',
+      },
+      {
+        title: 'Siphon Mana',
+        img: 'human_bloodmage_siphon_mana.gif',
+        abilityId: 'AHdr',
+        defaultHotkey: 'N',
+      },
+      {
+        title: 'Summon Phoenix',
+        img: 'human_bloodmage_summon_phoenix.gif',
+        abilityId: 'AHpx',
+        defaultHotkey: 'X',
+      },
+    ],
+  },
+  {
+    img: 'human_peasant.gif',
+    title: 'Peasant',
+    spells: [
+      {
+        title: 'Repair',
+        img: 'human_peasant_repair.gif',
+        abilityId: 'ahrp',
+        defaultHotkey: 'R',
+      },
+      {
+        title: 'Gather',
+        img: 'human_peasant_gather.gif',
+        abilityId: 'ahar',
+        defaultHotkey: 'G',
+      },
+      {
+        title: 'Call To Arms',
+        img: 'human_peasant_call_to_arms.gif',
+        abilityId: 'amic',
+        defaultHotkey: 'C',
+      },
+    ],
+  },
+  {
+    img: 'human_footman.gif',
+    title: 'Footman',
+    spells: [
+      {
+        title: 'Defend',
+        img: 'human_footman_defend.gif',
+        abilityId: 'adef',
+        defaultHotkey: 'D',
+      },
+    ],
+  },
+  {
+    img: 'human_priest.gif',
+    title: 'Priest',
+    spells: [
+      {
+        title: 'Heal',
+        img: 'human_priest_heal.gif',
+        abilityId: 'ahea',
+        defaultHotkey: 'E',
+      },
+      {
+        title: 'Dispel Magic',
+        img: 'human_priest_dispel_magic.gif',
+        abilityId: 'adis',
+        defaultHotkey: 'D',
+      },
+      {
+        title: 'Inner Fire',
+        img: 'human_priest_inner_fire.gif',
+        abilityId: 'ainf',
+        defaultHotkey: 'F',
+      },
+    ],
+  },
+  {
+    img: 'human_sorceress.gif',
+    title: 'Sorceress',
+    spells: [
+      {
+        title: 'Slow',
+        img: 'human_sorceress_slow.gif',
+        abilityId: 'aslo',
+        defaultHotkey: 'W',
+      },
+      {
+        title: 'Invisibility',
+        img: 'human_sorceress_invisibility.gif',
+        abilityId: 'aivs',
+        defaultHotkey: 'I',
+      },
+      {
+        title: 'Polymorph',
+        img: 'human_sorceress_polymorph.gif',
+        abilityId: 'aply',
+        defaultHotkey: 'O',
+      },
+    ],
+  },
+  {
+    img: 'human_spell_breaker.gif',
+    title: 'Spell Breaker',
+    spells: [
+      {
+        title: 'Spell Steal',
+        img: 'human_spell_breaker_spell_steal.gif',
+        abilityId: 'asps',
+        defaultHotkey: 'T',
+      },
+      {
+        title: 'Control Magic',
+        img: 'human_spell_breaker_control_magic.gif',
+        abilityId: 'acmg',
+        defaultHotkey: 'C',
+      },
+    ],
+  },
+  {
+    img: 'human_mortar_team.gif',
+    title: 'Mortar Team',
+    spells: [
+      {
+        title: 'Flare',
+        img: 'human_mortar_team_flare.gif',
+        abilityId: 'afla',
+        defaultHotkey: 'F',
+      },
+    ],
+  },
+  {
+    img: 'human_dragonhawk_rider.gif',
+    title: 'Dragonhawk Rider',
+    spells: [
+      {
+        title: 'Cloud',
+        img: 'human_dragonhawk_rider_cloud.gif',
+        abilityId: 'aclf',
+        defaultHotkey: 'C',
+      },
+      {
+        title: 'Aerial Shackles',
+        img: 'human_dragonhawk_rider_aerial_shackles.gif',
+        abilityId: 'amls',
+        defaultHotkey: 'E',
+      },
+    ],
+  },
+  {
     img: 'human_town_hall.png',
     title: 'Town Hall',
     spells: [
