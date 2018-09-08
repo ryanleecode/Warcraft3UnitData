@@ -93,7 +93,7 @@ const undeadUnits: WarcraftUnit[] = [
       },
       {
         title: 'Dark Ritual',
-        img: 'undead_lich_dark_ritual',
+        img: 'undead_lich_dark_ritual.gif',
         abilityId: 'audr',
         defaultHotkey: 'R',
       },
@@ -148,7 +148,7 @@ const undeadUnits: WarcraftUnit[] = [
       },
       {
         title: 'Gather',
-        img: 'undead_acolyte_gather.gif.gif',
+        img: 'undead_acolyte_gather.gif',
         abilityId: 'aaha',
         defaultHotkey: 'G',
       },

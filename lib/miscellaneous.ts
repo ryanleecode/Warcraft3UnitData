@@ -11,6 +11,12 @@ const miscellaneous: WarcraftUnit[] = [
         abilityId: 'cmdselectskill',
         defaultHotkey: 'O',
       },
+      {
+        title: 'Move',
+        img: 'misc_move.png',
+        abilityId: 'cmdmove',
+        defaultHotkey: 'M',
+      },
     ],
   },
 ];
